@@ -50,12 +50,7 @@
             <artifactId>spark-streaming-kafka-0-10_2.12</artifactId>
             <version>${spark.version}</version>
         </dependency>
-        <!-- redis客户端-->
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
-            <version>2.9.0</version>
-        </dependency>
+
         <!-- es客户端-->
         <dependency>
             <groupId>io.searchbox</groupId>

@@ -8,7 +8,7 @@ import java.util.Properties
  * 读取resources路径下的配置文件
  */
 object PropertiesUtil {
-    def load(propertieName:String): Properties ={
+    def load(propertieName: String = "config.properties"): Properties ={
         val prop = new Properties();
         prop.load(
             new InputStreamReader(Thread.currentThread().getContextClassLoader.getResourceAsStream(propertieName),
